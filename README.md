@@ -1,3 +1,15 @@
+# Added support for reading turtlebot manipulator urdf and generating associated homogenous transformation matrix. 
+
+# Generating URDF from xacro for adding new robot support
+
+
+```bash
+rosrun xacro xacro -o <target-name.urdf> <path-to-xacro-file.xacro>
+```
+
+This generates urdf. Sometimes you might have to change the package:/ -> relative-path-for-meshes
+
+
 # Installation
 
 This package provides a forward kinematics for simple robots as symbolic functions using
